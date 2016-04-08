@@ -33,6 +33,7 @@
 .btn1{ border:none;border-bottom: 2px solid #d5d5d5; background: none; font:22px/35px "微软雅黑"; margin-top: 30%;}
 .btn1:hover{border-bottom: 2px solid #367fa9;}
 .footer{height: 50px; position: fixed;bottom: 0; line-height: 50px; text-align: center; width: 100%; font-size: 16px;}
+.footer1{height: 30px;   text-align: center; width: 100%; font-size: 14px;}
 @media (max-width: 768px) {
     .login-box,.register-box {
         width:90%;
