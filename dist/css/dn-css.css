@@ -18,6 +18,7 @@
 .treeview-menu li a i{font-size:8px;}
 .list-group-item{ padding:5px 10px;}
 .box{margin-bottom: 10px;}
+.mt10{margin-top:10px;}
 
 
 /*登录页简约版样式*/
@@ -27,7 +28,7 @@
 
 .dn-login-logo a em{ font-style: normal; font:20px/30px "微软雅黑";}
 .login-box-body{background: none; padding:5% 15%; border: 1px solid #636363; box-shadow:inset 1px 0px 2px #c3c3c3;}
-.form-control{border:none; border-bottom: 1px solid #b5b5b5; background: none;padding: 6px 40px;}
+.form-control1{border:none; border-bottom: 1px solid #b5b5b5; background: none;padding: 6px 40px;}
 .form-control-feedback{left:0;}
 .checkbox{text-align: center;}
 .btn1{ border:none;border-bottom: 2px solid #d5d5d5; background: none; font:22px/35px "微软雅黑"; margin-top: 30%;}
@@ -48,7 +49,7 @@ background-size: 100%; border-radius:4px ;}
 .dn-form-group{background: #e6e6e6; border-radius:4px; color:#004d8f;}
 .dn-form-group .dn-blue{width: 40px; color: #004d8f;}
 .dn-form-group span:after{content:"|"; font-size: 16px; padding-left: 3px; color: #004d8f;}
-.dn-form-group .dn-form-control{border-bottom: none; color:#004d8f;}
+.dn-form-group .dn-form-control{border-bottom: none; color:#004d8f; border:none; border-bottom: 1px solid #b5b5b5; background: none;padding: 6px 40px;}
 .dn-password {padding-top:8%;}
 .dn-password a{font-size: 16px; color: #96bee1; text-decoration: underline;display: inline-block; margin-left: 4%;}
 .dn-password label{color: #fff;font-size: 16px;}
@@ -62,3 +63,7 @@ background-size: 100%; border-radius:4px ;}
     }
     .dn-login-box-main{width:auto; height: 100%;padding: 10% ;}
 }
+
+/*客户列表页*/
+.form-option option{font-size: 12px; color:#fff;}
+.table-dn th,.table-dn td{text-align: center;}
