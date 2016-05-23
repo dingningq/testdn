@@ -33,14 +33,14 @@ header{width:100%; height: 0.7rem; background:#ff7700; color: #fff;  text-align:
 .coor span em,.pro-info span em{color:#ff7700;}
 .icon-clock{ width: 0.2rem; height:0.2rem; background: url(../img/icon-clock.png) no-repeat; background-size: 100% 100%;display: inline-block;}
 .icon-pos{width: 0.19rem; height: 0.23rem; background: url(../img/pos.jpg)  no-repeat; background-size: 100% 100%; display: inline-block;}
-.page{padding:0.3rem 0 0.3rem 1.75rem;   font-size: 0.24rem;  }
+.page{padding:0.3rem 0 0.3rem 1.75rem;   font-size: 0.24rem;  height: 2.2rem; }
 .page li{ float: left; padding:0 0.05rem;}
 .page a{color:#8b8a8a;}
 
 .footer-fixed{ width:100%; height: 1.24rem; position: fixed; left: 0; bottom:0; background: #fff;border-top: 1px solid #cdcdcd;}
 .footer-fixed a{color:#323232; font-size: 0.2rem; width:25%; text-align: center; padding:0.32rem 0 0.2rem 0; float:left;}
 .footer-fixed a.shopping{padding:0.16rem 0;}
-.icon-sh{display: block;  margin-left: 0.6rem;}
+.icon-sh{display: block;  margin-left: 0.61rem;}
 .icon-show{ width: 0.41rem; height: 0.35rem; background: url(../img/d1.jpg) center top no-repeat; background-size: 100% 100%;}
 .icon-show2{ width: 0.33rem; height: 0.33rem; background: url(../img/d2.jpg) center top no-repeat; background-size: 100% 100%;}
 .icon-show3{ width: 0.42rem; height: 0.33rem; background: url(../img/d3.jpg) center top no-repeat; background-size: 100% 100%;}
