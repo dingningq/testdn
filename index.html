@@ -11,7 +11,8 @@
 		<title>答啦美食</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		 <script>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script>
         var winW = document.documentElement.clientWidth;
         var desW = 640;
         var proportion = desW/100;/*比例*/
@@ -27,14 +28,17 @@
     -->
 	</head>
 	<body>
+		
 		<header>
 			答啦美食
 			<img src="img/search.png" alt=""  class="header-search"/>
 		</header>
+		
 		<div class="container">
+			
 			<section class="nav-tabs">
 				<ul class="tab-hd">
-					<li class="on"><a href="javascript:;">全部口味<i class="icon icon-down"></i></a></li>
+					<li class="on"><a href="javascript:;">全部口味<i class="icon icon-up "></i></a></li>
 					<li><a href="javascript:;">综合排序<i class="icon icon-up"></i></a></li>
 				</ul>
 				<div class="tab-bd">
@@ -47,14 +51,17 @@
 						<li><a href="javascript:;">全部口味</a></li>
 					</ul>
 					<ul	class="tab-box">
-						<li><a href="javascript:;">全部口味</a></li>
-						<li><a href="javascript:;">全部口味</a></li>
-						<li><a href="javascript:;">西式日韩</a></li>
-						<li><a href="javascript:;">全部口味</a></li>
-						<li><a href="javascript:;">中式炒菜</a></li>
-						<li><a href="javascript:;">全部口味</a></li>
+						<li><a href="javascript:;">2全部口味</a></li>
+						<li><a href="javascript:;">2全部口味</a></li>
+						<li><a href="javascript:;">2西式日韩</a></li>
+						<li><a href="javascript:;">2全部口味</a></li>
+						<li><a href="javascript:;">2中式炒菜</a></li>
+						<li><a href="javascript:;">2全部口味</a></li>
 					</ul>
 				</div>
+			</section>
+			<section class="content-bg">
+				<div class="mask"></div>
 			</section>
 			<section class="pro-box">
 				<div class="pro-list clearfix">
@@ -165,11 +172,19 @@
 				</a>
 					
 			</footer>
-			<section class="content-bg">
-				<div class="mask"></div>
-			</section>
+			
 			
 		</div>
 		
 	</body>
+	<script>
+		$(function(){
+			$(".tab-hd li").click(function(){	
+				$(".mask").show();
+				$(".tab-hd li").eq($(this).index()).addClass("on").siblings().removeClass("on");
+				$(".tab-box").hide().eq($(this).index()).show();
+				
+			})
+		})
+	</script>
 </html>
