@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-		<meta name="format-detection" content="telephone=no"/>
+		<meta name="format-detection" content="telephone=no" />
 		<!--如果你不希望手机自动将网页中的电话号码显示为拨号的超链接-->
-		<meta name="apple-mobile-web-app-capable" content="yes"/>
-    	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    	<!--苹果手机,按下Hone键回到主页面,然后再点击图标,上次的Cookie和localStorage全部被自动清空了-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!--苹果手机,按下Hone键回到主页面,然后再点击图标,上次的Cookie和localStorage全部被自动清空了-->
 		<title>答啦美食</title>
-		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<script src="js/jquery-1.11.3.js"></script>
 		<script>
-        var winW = document.documentElement.clientWidth;
-        var desW = 640;
-        var proportion = desW/100;/*比例*/
-        document.documentElement.style.fontSize = winW/proportion +"px";
-        if(winW>desW){
-            document.documentElement.style.fontSize = "100px";
-        }
-    </script>
-    <!--
+			var winW = document.documentElement.clientWidth;
+			var desW = 640;
+			var proportion = desW / 100; /*比例*/
+			document.documentElement.style.fontSize = winW / proportion + "px";
+			if (winW > desW) {
+				document.documentElement.style.fontSize = "100px";
+			}
+		</script>
+		<!--
     	如果设备宽度是750 html的字体大小设成100px;
     	640 /fontSize = 750/100
     	fontSize = 640/7.5 =85.33333333333333
     -->
 	</head>
+
 	<body>
-		
+
 		<header>
 			答啦美食
-			<img src="img/search.png" alt=""  class="header-search"/>
+			<img src="img/search.png" alt="" class="header-search" />
 		</header>
-		
+
 		<div class="container">
-			
+
 			<section class="nav-tabs">
 				<ul class="tab-hd">
-					<li class="on"><a href="javascript:;">全部口味<i class="icon icon-up "></i></a></li>
+					<li><a href="javascript:;">全部口味<i class="icon icon-up "></i></a></li>
 					<li><a href="javascript:;">综合排序<i class="icon icon-up"></i></a></li>
 				</ul>
 				<div class="tab-bd">
-					<ul	class="tab-box" >
+					<ul class="tab-box">
 						<li><a href="javascript:;">全部口味</a></li>
 						<li><a href="javascript:;">全部口味</a></li>
 						<li><a href="javascript:;">西式日韩</a></li>
@@ -50,7 +52,7 @@
 						<li><a href="javascript:;">中式炒菜</a></li>
 						<li><a href="javascript:;">全部口味</a></li>
 					</ul>
-					<ul	class="tab-box">
+					<ul class="tab-box">
 						<li><a href="javascript:;">2全部口味</a></li>
 						<li><a href="javascript:;">2全部口味</a></li>
 						<li><a href="javascript:;">2西式日韩</a></li>
@@ -65,12 +67,12 @@
 			</section>
 			<section class="pro-box">
 				<div class="pro-list clearfix">
-					<img src="img/business.png"/>
+					<img src="img/business.png" />
 					<div class="pro-info">
 						<h3>五谷鱼粉(师院店)</h3>
 						<p><span>起送价<em>0</em>元</span><span>配送价<em>8</em>元</span><span>&nbsp;<em>50</em>分钟</span></p>
 						<div class="pro-small-btn">
-							<img src="img/yy-btn.png" alt=""/>
+							<img src="img/yy-btn.png" alt="" />
 							<span>09:00---21:00</span>
 						</div>
 					</div>
@@ -80,12 +82,12 @@
 					</div>
 				</div>
 				<div class="pro-list clearfix">
-					<img src="img/business.png"/>
+					<img src="img/business.png" />
 					<div class="pro-info">
 						<h3>五谷鱼粉(师院店)</h3>
 						<p><span>起送价<em>0</em>元</span><span>配送价<em>8</em>元</span><span>&nbsp;<em>50</em>分钟</span></p>
 						<div class="pro-small-btn">
-							<img src="img/yy-btn.png" alt=""/>
+							<img src="img/yy-btn.png" alt="" />
 							<span>09:00---21:00</span>
 						</div>
 					</div>
@@ -94,13 +96,13 @@
 						<span class="pos"><i class="icon-pos"></i><em>10.46</em>km</span>
 					</div>
 				</div>
-			<div class="pro-list clearfix">
-					<img src="img/business.png"/>
+				<div class="pro-list clearfix">
+					<img src="img/business.png" />
 					<div class="pro-info">
 						<h3>五谷鱼粉(师院店)</h3>
 						<p><span>起送价<em>0</em>元</span><span>配送价<em>8</em>元</span><span>&nbsp;<em>50</em>分钟</span></p>
 						<div class="pro-small-btn">
-							<img src="img/yy-btn.png" alt=""/>
+							<img src="img/yy-btn.png" alt="" />
 							<span>09:00---21:00</span>
 						</div>
 					</div>
@@ -109,13 +111,13 @@
 						<span class="pos"><i class="icon-pos"></i><em>10.46</em>km</span>
 					</div>
 				</div>
-			<div class="pro-list clearfix">
-					<img src="img/business.png"/>
+				<div class="pro-list clearfix">
+					<img src="img/business.png" />
 					<div class="pro-info">
 						<h3>五谷鱼粉(师院店)</h3>
 						<p><span>起送价<em>0</em>元</span><span>配送价<em>8</em>元</span><span>&nbsp;<em>50</em>分钟</span></p>
 						<div class="pro-small-btn">
-							<img src="img/yy-btn.png" alt=""/>
+							<img src="img/yy-btn.png" alt="" />
 							<span>09:00---21:00</span>
 						</div>
 					</div>
@@ -124,7 +126,7 @@
 						<span class="pos"><i class="icon-pos"></i><em>10.46</em>km</span>
 					</div>
 				</div>
-			
+
 				<ul class="page clearfix">
 					<li>
 						<a href="javascript:;">上一页</a>
@@ -151,7 +153,7 @@
 						<a href="javascript:;">下一页</a>
 					</li>
 				</ul>
-			
+
 			</section>
 			<footer class="footer-fixed clearfix">
 				<a href="javascript:;">
@@ -170,21 +172,50 @@
 					<i class="icon-sh icon-show4"></i>
 					<p>我的购物车</p>
 				</a>
-					
+
 			</footer>
-			
-			
+
 		</div>
-		
+
 	</body>
 	<script>
-		$(function(){
-			$(".tab-hd li").click(function(){	
-				$(".mask").show();
-				$(".tab-hd li").eq($(this).index()).addClass("on").siblings().removeClass("on");
-				$(".tab-box").hide().eq($(this).index()).show();
+		$(function() {
+			$(".tab-hd li:eq(0)").click(function() {
 				
+				$(".tab-hd li").removeClass("on");
+				$(".tab-bd ul:eq(0)").toggle();
+				var display = $(".tab-bd ul:eq(0)").css("display");
+				if (display === "block") {
+					$(this).addClass("on");
+					$(".tab-bd ul:eq(1)").hide();
+					$(".tab-bd ul:eq(0)").show();
+					$(".mask").show();
+				} else {
+					
+					$(".tab-bd ul:eq(1)").hide();
+					$(".mask").hide();
+					$(this).removeClass("on");
+					
+				}
+			});
+			$(".tab-hd li:eq(1)").click(function() {
+				
+				$(".tab-hd li").removeClass("on");
+				$(".tab-bd ul:eq(1)").toggle();
+				var display = $(".tab-bd ul:eq(1)").css("display");
+				if (display === "block") {
+					$(this).addClass("on");
+					$(".tab-bd ul:eq(0)").hide();
+					$(".tab-bd ul:eq(1)").show();
+					$(".mask").show();
+					
+				} else {
+					$(".tab-bd ul:eq(0)").hide();
+					$(".mask").hide();
+					$(this).removeClass("on");
+				}
 			})
 		})
 	</script>
+
 </html>
